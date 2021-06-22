@@ -3,7 +3,7 @@ import math
 
 # Ask for Inputs
 lower = int(input("Enter Lowest number: "))
-upper = int(input("Enter Highest numbe: "))
+upper = int(input("Enter Highest number: "))
 
 n = int(random.randint(lower, upper))
 print("\n\tYou've only ",
