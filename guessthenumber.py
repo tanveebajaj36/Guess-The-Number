@@ -5,7 +5,7 @@ import math
 lower = int(input("Enter Lowest number: "))
 upper = int(input("Enter Highest numbe: "))
 
-n = random.randint(lower, upper)
+n = int(random.randint(lower, upper))
 print("\n\tYou've only ",
       round(math.log(upper - lower + 1, 2)),
       " chances to guess the integer!\n")
@@ -16,6 +16,8 @@ def odd_even():
     else:
         print('"It is Odd number"')
 
+multiple = n / 2
+print("Hint: The number is a multiple of: ", + multiple)
 
 count = 0
 while count < math.log(upper - lower + 1, 2):
