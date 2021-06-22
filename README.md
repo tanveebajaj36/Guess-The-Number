@@ -1,2 +1,2 @@
 # Guess-The-Number
- the computer randomly chooses a number between 1 to 10, 1 to 100, or any range. Then give users a hint to guess the number. Every time the user guesses wrong, he gets another clue, and his score gets reduced. The clue can be multiples, divisible, greater or smaller, or a combination of all.
+ the computer randomly chooses a number between 1 to 10, 1 to 100, or any range. Then give users a hint to guess the number. Every time the user guesses wrong, he gets another clue, and the number of attempts is showed at the last. the clues can be guessed number is too high, too small, odd or even or a combination of all. If the user fails to guess the number a 'try again next time' message is showed at the end.
